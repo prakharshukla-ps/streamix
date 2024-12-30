@@ -3,8 +3,16 @@
 - Create React App
 - Configured TailwindCSS
 - Header
+- Routing of App
 - Login Form
 - Sign Up Form
+- Form Validation
+- Firebase setup
+- Deploying our app to production
+- Firebase authentication
+- Redux store with userSlice
+- Implemented Sign out
+- Update Profile
 
 # Features
 
