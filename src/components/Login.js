@@ -141,7 +141,7 @@ const Login = () => {
 				<p className="py-5 text-gray-400">
 					{isSignInForm ? "New to Streamix?" : "Already registered."} &nbsp;
 					<span
-						className="text-white cursor-pointer"
+						className="text-white cursor-pointer hover:underline"
 						onClick={toggleSignInForm}
 					>
 						{isSignInForm ? "Sign up now" : "Sign in now"}
