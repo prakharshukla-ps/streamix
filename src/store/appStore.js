@@ -1,7 +1,8 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { persistReducer, persistStore } from "redux-persist";
 import storage from "redux-persist/lib/storage";
-import userReducer from "./userSlice";
+import moviesReducer from "./reducer/movieSlice";
+import userReducer from "./reducer/userSlice";
 
 const persistConfig = {
 	key: "streamix",
@@ -10,6 +11,7 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
 	user: userReducer,
+	movies: moviesReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

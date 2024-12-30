@@ -13,6 +13,15 @@
 - Redux store with userSlice
 - Implemented Sign out
 - Update Profile
+- Unsubscribed to onAuthStateChanged callback
+- Added hardcoded values to constants file
+- Get data from TMDP Api
+- Create movieSlice
+- Update store with movie data
+- Fetch data for trailer video
+- Update store with trailer video data
+- Embedded youtube video & make it autoplay & mute
+- Tailwind classes to make it look awesome
 
 # Features
 
