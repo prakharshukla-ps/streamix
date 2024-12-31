@@ -51,8 +51,8 @@ const useLogin = () => {
 						displayName: fullNameRef.current.value,
 					})
 						.then(() => {
-							const { uid, email, displayName, accessToken } = auth.currentUser;
-							dispatch(addUser({ uid, email, displayName, accessToken }));
+							const { uid, email, displayName } = auth.currentUser;
+							dispatch(addUser({ uid, email, displayName }));
 						})
 						.catch((error) => {
 							setErrorMessage(errorMessage);
@@ -71,6 +71,7 @@ const useLogin = () => {
 			)
 				.then((userCredential) => {
 					const user = userCredential.user;
+					console.log(user);
 				})
 				.catch((error) => {
 					const errorCode = error.code;

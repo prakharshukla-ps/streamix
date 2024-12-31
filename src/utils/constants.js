@@ -9,6 +9,8 @@ const ERROR =
 const USER_ICON =
 	"https://wallpapers.com/images/high/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.webp";
 
+const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
 const API_OPTIONS = {
 	method: "GET",
 	headers: {
@@ -17,4 +19,4 @@ const API_OPTIONS = {
 	},
 };
 
-export { API_OPTIONS, COVER, ERROR, LOGO, USER_ICON };
+export { API_OPTIONS, COVER, ERROR, IMG_CDN_URL, LOGO, USER_ICON };

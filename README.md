@@ -22,6 +22,8 @@
 - Update store with trailer video data
 - Embedded youtube video & make it autoplay & mute
 - Tailwind classes to make it look awesome
+- Build movie list
+- TMDB image cdn url
 
 # Features
 
